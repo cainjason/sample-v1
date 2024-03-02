@@ -8,7 +8,7 @@ function Body() {
     <ContainerBody>
         <h2> body </h2>
         <ReactPlayer
-        
+            className="ReactPlayer"
             url='https://fb.watch/oZ9mRra7eb/'
             controls
             muted
@@ -31,7 +31,7 @@ const ContainerBody = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: peachpuff;
 `;
 
 
